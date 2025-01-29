@@ -1,14 +1,61 @@
+body{
+    background-color: aliceblue;
+}
 .logo{
-    width:230px;
-    height:140px;
+    width:175px;
+    height:100px;
 }
 header{
     display:grid;
-    grid-template-rows: 4fr 1fr;
     background-image:url(Img/Personal_Training_at_a_Gym_-_Pushups.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
 }
 button{
-    border-radius: 5px;
-    border-color: aliceblue;
-    color: gray;
-}
+    border-color: #C7C3BF;
+    background-color: #E9E9E9;
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E9E9E9 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%,#E9E9E9 100%);
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+    -webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+    color: #D31141;
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 2px;
+  }
+  .info{
+    font-family: "Roboto Mono", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
+  h2{
+    background-image: url(Img/Bluebg.png);
+  background-size: contain;
+  background-repeat: repeat-y;
+
+  }
