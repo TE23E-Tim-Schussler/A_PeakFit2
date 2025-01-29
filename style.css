@@ -1,0 +1,14 @@
+.logo{
+    width:230px;
+    height:140px;
+}
+header{
+    display:grid;
+    grid-template-rows: 4fr 1fr;
+    background-image:url(Img/Personal_Training_at_a_Gym_-_Pushups.jpg);
+}
+button{
+    border-radius: 5px;
+    border-color: aliceblue;
+    color: gray;
+}
